@@ -7,9 +7,9 @@ import (
 	"net/http"
 )
 
-// isslack takes two arguments (service, and command)
+// Isslack takes two arguments (service, and command)
 // Example:
-// isslack("ismetering", "install")
+// Isslack("ismetering", "install")
 // func postSlack(msg string, surl string) string {
 func Isslack(msg string, surl string) string {
 	message := map[string]interface{}{
